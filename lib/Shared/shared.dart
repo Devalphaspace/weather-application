@@ -21,7 +21,6 @@ class _WeatherLoadingWidgetState extends State<WeatherLoadingWidget> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     for (var i = 0; i < 10; i++) {
       randNum = rng.nextInt(10);
@@ -139,7 +138,7 @@ class _LocationPopUpState extends State<LocationPopUp> {
 
   @override
   Widget build(BuildContext context) {
-    StateController controller = Get.put(StateController());
+    // StateController controller = Get.put(StateController());
     return GetBuilder<StateController>(builder: (stateController) {
       return Dialog(
         backgroundColor: Colors.transparent,
