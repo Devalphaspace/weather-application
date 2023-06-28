@@ -41,6 +41,8 @@ dependencies:
   lottie: ^2.4.0
   geolocator: ^9.0.2
   geocoding: ^2.1.0
+  unixtime: ^1.0.0
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:
